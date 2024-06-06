@@ -1,0 +1,141 @@
+
+*{
+    margin: 0px;
+    font-family: 'text';
+}
+
+:root{
+    --Nutmeg:hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(329, 36%, 88%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+@font-face {
+    font-family: 'heading';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'text';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@media screen and (min-width:600px){
+    *{
+        background-color:var(--RoseWhite) ;
+    }
+    .body{
+        width:40vw;
+        background-color:white;
+        border: 1.3em;
+        border-color:white;
+        border-style: solid;
+        margin-left:26%;
+        border-radius: 0.7em;
+    }
+
+    img{
+        border-radius: 0.5em;
+    }
+
+    .image,.heading,.intro,.preparation,.ingredients,.instructions,.nutrition,h1,h2,h3,table,ul,ol,li,p,b,tr,td{
+        background-color: white;
+    }
+}
+
+.image{
+    width: 100%;
+    height:auto;
+}
+
+.image img{
+    width: 100%;
+}
+
+.heading{
+    font-family:'heading';
+    margin:0.6em;
+    color:var(--DarkCharcoal)
+}
+
+.intro{
+    margin:1.2em;
+    color:var(--WengeBrown);
+    
+}
+
+
+.preparation{
+    margin: 2.5em;
+}
+
+.preparation h3{
+    padding-left: 1.2em;
+    padding-bottom: 0.8em;
+    color: var(--DarkRaspberry);
+    
+}
+
+.preparation li{
+    padding-bottom:0.5em ;
+    color: var(--WengeBrown);
+}
+
+.ingredients h2{
+    color: var(--Nutmeg);
+    margin: 1em;
+    font-family: 'heading';
+}
+
+.ingredients ul{
+    margin:1em ;
+    color: var(--WengeBrown);
+}
+
+.ingredients li{
+    margin:1em;
+}
+
+.instructions h2{
+    color: var(--Nutmeg);
+    margin: 1em;
+    font-family: 'heading';
+}
+
+.instructions ol{
+    margin-bottom: 1em;
+}
+
+.instructions li{
+    margin: 1em;
+    color: var(--WengeBrown);
+}
+
+.nutrition h2{
+    color: var(--Nutmeg);
+    margin: 1em;
+    font-family: 'heading';
+}
+
+.nutrition p{
+    margin: 1.5em;
+    color: var(--WengeBrown);
+}
+
+.nutrition table{
+    margin: 1.5em;
+}
+
+.nutrition td{
+    padding: 1.3em;
+    color: var(--WengeBrown);
+}
+
+.nutrition .benefits{
+    color: var(--Nutmeg);
+}
