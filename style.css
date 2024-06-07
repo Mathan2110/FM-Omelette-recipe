@@ -29,14 +29,17 @@
     *{
         background-color:var(--RoseWhite) ;
     }
-    .body{
-        width:40vw;
+    .container{
+        max-width: 600px;
         background-color:white;
         border: 1.3em;
         border-color:white;
         border-style: solid;
-        margin-left:26%;
         border-radius: 0.7em;
+        margin: auto;
+        margin-top:6em;
+        margin-bottom: 6em;
+        padding: 0.5em;
     }
 
     img{
@@ -138,4 +141,10 @@
 
 .nutrition .benefits{
     color: var(--Nutmeg);
+}
+
+table{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
 }
